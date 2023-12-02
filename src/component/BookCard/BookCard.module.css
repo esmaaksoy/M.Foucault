@@ -1,16 +1,17 @@
-main{
-    padding: 2rem;
+main {
+  padding: 2rem;
+  height: 70vh;
 }
-.container{
-    display: flex;
-    border: 2px solid red;
-    width: 80%;
-    }
-    
-.card{
-display: flex;
-   width: 100%;
+.container {
+  display: flex;
+  border: 2px solid red;
+  width: 80%;
+  padding: 2rem;
+  background: linear-gradient(to right, white, black);
 }
-.name{
-    font-size: 3rem;
+.card {
+  display: flex;
+}
+.name {
+  font-size: 3rem;
 }

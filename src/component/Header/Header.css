@@ -4,11 +4,12 @@ img{
     border-radius: 50%; */
 }
 header{
-    background-color: brown;
+    background: radial-gradient(circle, black,white,gray,rgb(199, 195, 195));
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     gap: 2rem;
   height: 20vh;
+  
 }
 p{
     font-size: 4rem;
