@@ -1,0 +1,16 @@
+main{
+    padding: 2rem;
+}
+.container{
+    display: flex;
+    border: 2px solid red;
+    width: 80%;
+    }
+    
+.card{
+display: flex;
+   width: 100%;
+}
+.name{
+    font-size: 3rem;
+}
