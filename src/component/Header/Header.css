@@ -1,0 +1,15 @@
+img{
+    width: 10rem;
+    /* height: 10rem;
+    border-radius: 50%; */
+}
+header{
+    background-color: brown;
+    display: flex;
+    /* align-items: center; */
+    gap: 2rem;
+  height: 20vh;
+}
+p{
+    font-size: 4rem;
+}
