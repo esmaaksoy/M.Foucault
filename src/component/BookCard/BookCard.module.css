@@ -1,17 +1,44 @@
 main {
   padding: 2rem;
-  height: 70vh;
+  display: flex;
+  background: linear-gradient(to right, black, white);
 }
 .container {
   display: flex;
-  border: 2px solid red;
-  width: 80%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-shadow:  5px 5px 20px  white;
   padding: 2rem;
   background: linear-gradient(to right, white, black);
+  width: 100%;
+  border-radius: 2rem;
 }
 .card {
+  width: 33.3%;
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .name {
-  font-size: 3rem;
+  font-size: 1.5rem;
+  width: 150px;
+}
+.image {
+  border-radius: 1rem;
+  width: 150px;
+  height: 200px;
+}
+
+@media screen and (max-width:990px){
+  .card{
+    width: 50%;
+  }
+}
+@media screen and (max-width:760px){
+  .card{
+    width: 100%;
+  }
 }

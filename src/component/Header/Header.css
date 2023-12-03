@@ -8,9 +8,14 @@ header{
     display: flex;
     align-items: center;
     gap: 2rem;
-  height: 20vh;
-  
+  /* height: 20vh; */
 }
 p{
     font-size: 4rem;
+}
+
+@media (max-width: 600px) {
+p{
+    font-size: 2rem;
+}
 }

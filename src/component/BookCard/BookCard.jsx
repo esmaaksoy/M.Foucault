@@ -6,7 +6,7 @@ const BookCard = () => {
     <div className={BookStyle.container}>
       {data.map(({ image, name, id }) => (
         <div key={id} className={BookStyle.card}>
-          <img src={image} alt="" />
+          <img className={BookStyle.image} src={image} alt={name} />
           <p className={BookStyle.name}>{name}</p>
         </div>
       ))}
