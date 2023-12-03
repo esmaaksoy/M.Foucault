@@ -5,7 +5,7 @@ This project is a simple website created using React, module css.
 ![Project snapshot](./image/Screenshot%202023-12-03%20113703.png) 
 ![Project snapshot](./image/Screenshot%202023-12-03%20113732.png) 
 
-[Michel Foucault Live Page](https://world-shop.netlify.app/)
+[Michel Foucault Live Page](https://foucault.netlify.app/)
 ## Description
 My second product list  page with mock Apı
 In the project directory, you can run:
