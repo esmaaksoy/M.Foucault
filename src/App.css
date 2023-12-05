@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 body{
-    /* background:radial-gradient(to right, black, brown); */
     font-family: 'Nova Square', sans-serif;
     background: linear-gradient(to right, black, white);
 }

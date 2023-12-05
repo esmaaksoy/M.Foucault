@@ -1,44 +1,67 @@
 main {
   padding: 2rem;
   display: flex;
+  flex-direction: column;
   background: linear-gradient(to right, black, white);
 }
-.container {
+.cards{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap: 0.5rem;
+}
+.container {
   box-shadow:  5px 5px 20px  white;
   padding: 2rem;
   background: linear-gradient(to right, white, black);
   width: 100%;
   border-radius: 2rem;
 }
+.container h1{
+  text-align: center;
+  margin-bottom: 1rem;
+}
 .card {
-  width: 33.3%;
+  width: 30%;
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
+  gap: 1rem;
 }
 .name {
-  font-size: 1.5rem;
-  width: 150px;
+  font-size: 1.2rem;
 }
 .image {
   border-radius: 1rem;
-  width: 150px;
-  height: 200px;
+  width: 100px;
+  height: 150px;
+}
+button{
+  width: 50%;
+  padding: 0.8rem;
+  border: transparent;
+  border-radius: 1rem;
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 1rem;
 }
 
-@media screen and (max-width:990px){
-  .card{
-    width: 50%;
-  }
-}
-@media screen and (max-width:760px){
-  .card{
+@media screen and (max-width: 480px) {
+  .card {
     width: 100%;
+   flex-direction: column;
+  }
+  button{
+    font-size: 1rem;
+  }
+ 
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .card {
+    width: 30%;
+   flex-direction: column;
   }
 }
