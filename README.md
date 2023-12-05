@@ -7,7 +7,7 @@ This project is a simple website created using React, module css.
 
 [Michel Foucault Live Page](https://foucault.netlify.app/)
 ## Description
-My second product list  page with mock Apı
+I used a mock API on this website.
 In the project directory, you can run:
 ### `npm start`
 Runs the app in the development mode.\
